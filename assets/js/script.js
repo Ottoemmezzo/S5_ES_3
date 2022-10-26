@@ -57,7 +57,10 @@ function ruotaGiro(){
     flag=false;
     inter=setInterval(ruotaDx,1000);
    }
-   else clearInterval(inter);
-        
+   else 
+   {
+    flag=true;
+    clearInterval(inter);
+   }    
         
 }
